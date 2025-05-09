@@ -1,4 +1,4 @@
-Xschem waveform Synthesize
+Xschem waveform Synthesis
 This document provides a guide to synthesize simulated current or voltage waveforms from the
 XSCHEM schematic editor using the pyVISA Python library. The waveforms are generated from
 data stored in a CSV file and can be synthesized with any compatible current or voltage source
