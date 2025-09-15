@@ -3,22 +3,22 @@
 <img width="654" height="465" alt="Synthesis_2" src="https://github.com/user-attachments/assets/0f8eaba1-3ad6-49a5-ab60-88a747e5f2dd" />
 
 
---This document provides a guide for synthesizing simulated current or voltage waveforms generated in the XSCHEM schematic editor . The waveforms obtained from XSCHEM transient simulations can be reproduced on any compatible instrument. As an example, this guide demonstrates waveform synthesis from XSCHEM using the Keithley 2450 SourceMeter Unit (SMU).
+--This document provides a guide for synthesizing simulated current or voltage waveforms generated in the XSCHEM schematic editor. The waveforms obtained from XSCHEM transient simulations can be reproduced on any compatible instrument. As an example, this guide demonstrates waveform synthesis from XSCHEM using the Keithley 2450 SourceMeter Unit (SMU).
 
--- By pressing CTRL + Click on START SYNTHESIS (launcher.sym), the simulated waveform data is sent to the SourceMeter Unit, and the output of the SourceMeter will switched on.
+-- Use launcher.sym in XSCHEM to START and STOP the execution of waveform synthesis.
 
---Similarly, pressing CTRL + Click on STOP SYNTHESIS, will switch off the output of the Sourcemeter.
+-- By pressing CTRL + Click on START SYNTHESIS (launcher.sym) in XSCHEM, the simulated waveform data is sent to the SourceMeter Unit, and the output of the SourceMeter will switched on.
 
--- Used Python and PyVISA library to configure the Sourcemeter (Make sure the instrument supports SCPI)
+--Similarly, pressing CTRL + Click on STOP SYNTHESIS in XSCHEM, will switch off the output of the Sourcemeter.
 
--- Use launcher.sym to start the execution of your Python script.
+-- Use Python and PyVISA library to configure the Sourcemeter (Make sure the instrument supports SCPI)
 
 <img width="687" height="207" alt="sythesis_4" src="https://github.com/user-attachments/assets/7554857a-9dd7-41ce-ae32-becdf3af411f" />
 
---Launch the shell script run_python.sh fromlauncher.sym to run the Python script in the background, allowing Xschem to remain active during execution. 
+--Launch the shell script run_python.sh from launcher.sym to run the Python script in the background, allowing Xschem to remain active during execution. 
 
 --To terminate or abort the trigger, use the Tcl script stop_script.tcl, which can also be launched via launcher.sym (This setup provides a convenient way to control both the start and stop of the arbitrary current or voltage wave
-generation)
+generation from XSCHEM)
 
 **Configuration of Keithley 2450 SourceMeter**
 
