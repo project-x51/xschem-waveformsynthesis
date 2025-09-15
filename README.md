@@ -8,7 +8,7 @@
 
 --Similarly, pressing CTRL + Click on STOP SYNTHESIS, will switch off the output of the Sourcemeter.
 
--- Used Python and PyVISA library to confihgure the Sourcemeter (Make sure the instrument supports SCPI)
+-- Used Python and PyVISA library to configure the Sourcemeter (Make sure the instrument supports SCPI)
 
 -- Use launcher.sym to start the execution of your Python script.
 
