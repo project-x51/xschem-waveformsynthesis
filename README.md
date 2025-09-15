@@ -1,6 +1,7 @@
 **Xschem-waveform Synthesis**
 
-<img width="654" height="465" alt="Synthesis_2" src="https://github.com/user-attachments/assets/498130f4-57c2-483d-af4e-25b3d9467e5c" />
+<img width="654" height="465" alt="Synthesis_2" src="https://github.com/user-attachments/assets/0f8eaba1-3ad6-49a5-ab60-88a747e5f2dd" />
+
 
 --This document provides a guide for synthesizing simulated current or voltage waveforms generated in the XSCHEM schematic editor using the pyVISA Python library. The waveforms obtained from XSCHEM transient simulations can be reproduced on any compatible instrument. As an example, this guide demonstrates waveform synthesis from XSCHEM using the Keithley 2450 SourceMeter Unit (SMU).
 
