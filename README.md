@@ -1,9 +1,12 @@
-**Xschem-waveform Synthesis**
 
-<img width="654" height="465" alt="Synthesis_2" src="https://github.com/user-attachments/assets/0f8eaba1-3ad6-49a5-ab60-88a747e5f2dd" />
+<h1 align="center"><b>Xschem-waveform Synthesis</b></h1>
+
+<img width="654" height="539" alt="Synthesis_2" src="https://github.com/user-attachments/assets/70014600-fea0-469c-b1c4-387285d0601a" />
 
 
---This document provides a guide for synthesizing simulated current or voltage waveforms generated in the XSCHEM schematic editor. The waveforms obtained from XSCHEM transient simulations can be reproduced on any compatible instrument. As an example, this guide demonstrates waveform synthesis from XSCHEM using the Keithley 2450 SourceMeter Unit (SMU).
+--This document provides a guide for synthesizing simulated current or voltage waveforms generated in the XSCHEM schematic editor. The waveforms obtained from XSCHEM transient simulations can be reproduced on any compatible instrument. As an example, this guide demonstrates waveform synthesis from XSCHEM using the Keithley 2450 Source Measure Unit (SMU).
+
+-- Source meters can source or sink current and voltage
 
 -- Use launcher.sym in XSCHEM to START and STOP the execution of waveform synthesis.
 
